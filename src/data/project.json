@@ -1,0 +1,88 @@
+{
+  "title": "Reflection-Guided Dynamics Rectification for Text-to-Image Generation",
+  "short_name": "RGDR",
+  "status": "Preprint",
+  "year": 2026,
+  "authors": [
+    {
+      "name": "Shuo Xu",
+      "affiliations": [
+        1,
+        2
+      ],
+      "marker": "*",
+      "note": "Project leader and first author."
+    },
+    {
+      "name": "Hanrui Ying",
+      "affiliations": [
+        1
+      ]
+    },
+    {
+      "name": "Debin Liu",
+      "affiliations": [
+        3
+      ]
+    },
+    {
+      "name": "Jianjun Li",
+      "affiliations": [
+        1
+      ]
+    },
+    {
+      "name": "Zhiyuan Ma",
+      "affiliations": [
+        1
+      ],
+      "marker": "†",
+      "note": "Corresponding author."
+    }
+  ],
+  "affiliations": [
+    {
+      "id": 1,
+      "name": "Huazhong University of Science and Technology"
+    },
+    {
+      "id": 2,
+      "name": "Sorbonne University - Faculty of Science and Engineering"
+    },
+    {
+      "id": 3,
+      "name": "Zhengzhou University"
+    }
+  ],
+  "summary": "Reflection-Guided Dynamics Rectification (RGDR) is a training-free test-time optimization (TTO) method for refining generated images. It turns reflections on an existing image into stepwise corrections along a new sampling trajectory. RGDR represents the current error and the desired state as Reference and Target conditions, using the difference between the model’s velocity predictions under these conditions to guide trajectory rectification. We apply RGDR to text-to-image generation and image editing, improving the correction of residual errors across multiple models.",
+  "method": {
+    "heading": "From reflection to sampling corrections"
+  },
+  "method_figure": {
+    "title": "RGDR pipeline",
+    "caption": "A vision-language model first assesses a generated image against the task requirements, distinguishing content that is already correct from elements that require correction. Based on this reflection, the Reference condition describes the observed state of those elements, while the Target condition specifies their desired state. Both retain relevant context without requesting changes to already-correct content. RGDR then starts a new sampling trajectory from the same initial noise as the original generation, retaining the original velocity field as its base. At each sampling step, it recomputes the difference between the generator’s velocity predictions under the Target and Reference conditions, scales the resulting correction direction, and adds it to the base velocity field. The original generation process thus remains the basis for sampling, while the additional term directs the correction toward the identified errors. The semantic feedback remains fixed across candidates, but the correction direction depends on the evolving sampling state. Varying the relative correction strength produces candidate images, which are evaluated alongside the original image to select the final output. The generator’s weights remain frozen throughout.",
+    "alt": "Overview of the RGDR pipeline from a reference image and reflection to corrected candidate generation and selection.",
+    "src": "images/method.png",
+    "width": 1510,
+    "height": 980
+  },
+  "bibtex": "@misc{xu2026rgdr,\n  title = {Reflection-Guided Dynamics Rectification for Text-to-Image Generation},\n  author = {Xu, Shuo and Ying, Hanrui and Liu, Debin and Li, Jianjun and Ma, Zhiyuan},\n  year = {2026}\n}",
+  "links": [
+    {
+      "id": "paper",
+      "label": "Paper",
+      "href": "paper.pdf",
+      "local": true
+    },
+    {
+      "id": "code",
+      "label": "Code",
+      "href": "https://github.com/xushuo23-blip/RGDR_method"
+    },
+    {
+      "id": "dataset",
+      "label": "Dataset",
+      "href": "https://github.com/xushuo23-blip/RGDR_dataset"
+    }
+  ]
+}

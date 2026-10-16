@@ -1,0 +1,678 @@
+{
+  "heading": "Results",
+  "selectionSavedAt": "2026-10-16T22:12:20.619003+08:00",
+  "groups": [
+    {
+      "id": "human",
+      "label": "Human",
+      "cases": [
+        {
+          "id": "P04",
+          "title": "Human example 1",
+          "caption": "Replace the shoulder bag with an off-white canvas tote.",
+          "model": "SD3.5 Medium",
+          "taskId": "prism_long_text_045",
+          "selectedIndex": 3,
+          "eta": 0.06,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/human/p04-4cf21eb8fd71eeb8eeb3.webp",
+              "alt": "Human example 1 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "4cf21eb8fd71eeb8eeb3cb680d02db3f5a79282798ea86095edbcb7a91aad25a"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/human/p04-ab35582ccdc8fcb85034.webp",
+              "alt": "Human example 1 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "ab35582ccdc8fcb85034ab6cd139423a485299d610e652392458f9baf12f979b"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "title": "Human example 2",
+          "caption": "Move the bar onto the Eiffel Tower; remove the tower in the background.",
+          "model": "FLUX.1-dev",
+          "taskId": "prism_entity_053",
+          "selectedIndex": 8,
+          "eta": 0.16,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/human/p10-a4a6f393c3cde5801b1c.webp",
+              "alt": "Human example 2 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "a4a6f393c3cde5801b1c4d392d38fadaa4609febcd78b4395a9687a846dfef5c"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/human/p10-aa46782f1858f2d15c68.webp",
+              "alt": "Human example 2 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "aa46782f1858f2d15c68268c2c4b787b6dd34e109601be13b827e67e39def2e4"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "title": "Human example 3",
+          "caption": "Reveal the large amber earrings.",
+          "model": "SD3.5 Medium",
+          "taskId": "prism_long_text_036",
+          "selectedIndex": 2,
+          "eta": 0.04,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/human/p12-e33b8dd3bc8fbcb04de6.webp",
+              "alt": "Human example 3 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "e33b8dd3bc8fbcb04de6a1a7556c1d71b7bce510b58ae607eb255faf9b64b90b"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/human/p12-d3985581596438207764.webp",
+              "alt": "Human example 3 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "d398558159643820776497647bf7be07b48badfeedcc089a877dbd35b9db2433"
+            }
+          ]
+        },
+        {
+          "id": "H-FLUX-prism_entity_083",
+          "title": "Human example 4",
+          "caption": "Dress the speaker in a black leather jacket.",
+          "model": "FLUX.1-dev",
+          "taskId": "prism_entity_083",
+          "selectedIndex": 3,
+          "eta": 0.06,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/human/h-flux-prism-entity-083-4170de2e0d9a1e5db8c7.webp",
+              "alt": "Human example 4 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "4170de2e0d9a1e5db8c7c783b096663f6a7b090bf17778c7ac6fee07594c5ac5"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/human/h-flux-prism-entity-083-7d9343225483c5be2a61.webp",
+              "alt": "Human example 4 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "7d9343225483c5be2a61d903e7194dc30af4627f395c81b8a1353cfd2e242760"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "title": "Human example 5",
+          "caption": "Bring the marble figures to life.",
+          "model": "SANA-1.5 1.6B",
+          "taskId": "prism_style_040",
+          "selectedIndex": 8,
+          "eta": 0.16,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/human/p08-ca4562ab5e237e267a67.webp",
+              "alt": "Human example 5 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "ca4562ab5e237e267a67bf620b74758fb4aa61d74d691b6c83f862a27454b7f9"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/human/p08-2f9758f017f496e76311.webp",
+              "alt": "Human example 5 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "2f9758f017f496e76311fd8b20cfca1bd1b10d09c95dec2177a518222893064f"
+            }
+          ]
+        },
+        {
+          "id": "H-FLUX-prism_entity_035",
+          "title": "Human example 6",
+          "caption": "Give the singer a short haircut.",
+          "model": "FLUX.1-dev",
+          "taskId": "prism_entity_035",
+          "selectedIndex": 3,
+          "eta": 0.06,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/human/h-flux-prism-entity-035-5dee17ebb898f336719f.webp",
+              "alt": "Human example 6 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "5dee17ebb898f336719f4129a9dfcad7693670d270d37d9a5e92642afc5d09d8"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/human/h-flux-prism-entity-035-abc14f6646de2254bda9.webp",
+              "alt": "Human example 6 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "abc14f6646de2254bda9b71646abc8a42ba1078751c983b58f736dcb8a0e7642"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open",
+      "label": "Open",
+      "cases": [
+        {
+          "id": "O12",
+          "title": "Open example 1",
+          "caption": "Change the four-tier cake to three tiers.",
+          "model": "SANA-1.5 1.6B",
+          "taskId": "prism_composition_025",
+          "selectedIndex": 7,
+          "eta": 0.14,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/open/o12-b4527f8f7bb05a61a248.webp",
+              "alt": "Open example 1 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "b4527f8f7bb05a61a248f53933a70f5c1751109bd774111647e9ef9158334d20"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/open/o12-ba6f50861bf2fe5f1631.webp",
+              "alt": "Open example 1 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "ba6f50861bf2fe5f16316b903eb974d8897ae645342077f233d56646ebf54e28"
+            }
+          ]
+        },
+        {
+          "id": "O16",
+          "title": "Open example 2",
+          "caption": "Turn the tree trunks into mirrors reflecting a dreamlike forest.",
+          "model": "SANA-1.5 1.6B",
+          "taskId": "prism_imagination_072",
+          "selectedIndex": 5,
+          "eta": 0.1,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/open/o16-8fca45791998974cf7f7.webp",
+              "alt": "Open example 2 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "8fca45791998974cf7f73b5fde216cd49b65d45b67eaa807b8bddc7804d9a541"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/open/o16-0261861e7799baed25f8.webp",
+              "alt": "Open example 2 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "0261861e7799baed25f8fb6543be9fc3d8b429ed70e4ee80a2288cfd4eeecb4c"
+            }
+          ]
+        },
+        {
+          "id": "O23",
+          "title": "Open example 3",
+          "caption": "Render the still life with cubist facets and multiple viewpoints.",
+          "model": "FLUX.1-dev",
+          "taskId": "prism_style_056",
+          "selectedIndex": 8,
+          "eta": 0.16,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/open/o23-07f4a9b02bba50303e37.webp",
+              "alt": "Open example 3 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "07f4a9b02bba50303e3730aca4c228eeaaa4e8bb5b8f21f6cd191f73a57429ea"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/open/o23-63057f069e54ee18fee5.webp",
+              "alt": "Open example 3 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "63057f069e54ee18fee560a6c2081cfdb4120d88b4c62a7ce10f3ce212c594c4"
+            }
+          ]
+        },
+        {
+          "id": "OP-prism_imagination_070-flux1_dev",
+          "title": "Open example 4",
+          "caption": "Turn the icy creature into a flowing form with swirling musical notes.",
+          "model": "FLUX.1-dev",
+          "taskId": "prism_imagination_070",
+          "selectedIndex": 10,
+          "eta": 0.2,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/open/op-prism-imagination-070-flux1-dev-c747a0907995ddcddacd.webp",
+              "alt": "Open example 4 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "c747a0907995ddcddacdced0852750463985f5b94c9beea19f6804a437c7bb6d"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/open/op-prism-imagination-070-flux1-dev-f76406a0d51cbafbd72a.webp",
+              "alt": "Open example 4 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "f76406a0d51cbafbd72a8d999007eb2d45f460b99de290deb88aeb6807787beb"
+            }
+          ]
+        },
+        {
+          "id": "OP-prism_style_005-sana15_1p6b",
+          "title": "Open example 5",
+          "caption": "Give the tomato slices a soft, flowing watercolor texture.",
+          "model": "SANA-1.5 1.6B",
+          "taskId": "prism_style_005",
+          "selectedIndex": 3,
+          "eta": 0.06,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/open/op-prism-style-005-sana15-1p6b-b9ad7a975782db4331d0.webp",
+              "alt": "Open example 5 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "b9ad7a975782db4331d07b11655d2f3c7a0e7765c017bf53efa9149d7c521e15"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/open/op-prism-style-005-sana15-1p6b-aa9d2f88f8a6b8d028f6.webp",
+              "alt": "Open example 5 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "aa9d2f88f8a6b8d028f64724a32637afa4552f8b0bca89cd2276ef38ccde9726"
+            }
+          ]
+        },
+        {
+          "id": "O13",
+          "title": "Open example 6",
+          "caption": "Give the temple its distinctive pointed spires.",
+          "model": "SANA-1.5 1.6B",
+          "taskId": "prism_entity_008",
+          "selectedIndex": 4,
+          "eta": 0.08,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/open/o13-c833c5afe52b0a2c0ea4.webp",
+              "alt": "Open example 6 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "c833c5afe52b0a2c0ea410bb4517085cd24a725b5d53e834d35712572df555c4"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/open/o13-37d7176c972cf43da00b.webp",
+              "alt": "Open example 6 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "37d7176c972cf43da00be72dc4606ea0d41cae93f77436be4cea58c09d3132f0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "text",
+      "label": "Text",
+      "cases": [
+        {
+          "id": "TX-prism_text_rendering_005-sd35",
+          "title": "Text example 1",
+          "caption": "Set the cover headline to “The New NEW DEAL”.",
+          "model": "SD3.5 Medium",
+          "taskId": "prism_text_rendering_005",
+          "selectedIndex": 4,
+          "eta": 0.08,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/text/tx-prism-text-rendering-005-sd35-393f4ed7a842f5d752b4.webp",
+              "alt": "Text example 1 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "393f4ed7a842f5d752b4b5c9dae87f4060a3758cc81f659e73cb3aae550e58b4"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/text/tx-prism-text-rendering-005-sd35-9ee16a6eb78f1807e770.webp",
+              "alt": "Text example 1 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "9ee16a6eb78f1807e770c868b2115d0ead27cebb48d430cdf2b567e63f55323a"
+            }
+          ]
+        },
+        {
+          "id": "TX-prism_style_034-sana",
+          "title": "Text example 2",
+          "caption": "Complete the green lettering as “ANTHER FOUR”.",
+          "model": "SANA-1.5 1.6B",
+          "taskId": "prism_style_034",
+          "selectedIndex": 10,
+          "eta": 0.2,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/text/tx-prism-style-034-sana-b8e56e94d80c4ce44d81.webp",
+              "alt": "Text example 2 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "b8e56e94d80c4ce44d81e46dfa86e9309287256de389af54f904f1fde791ca1e"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/text/tx-prism-style-034-sana-bd67312e1390fb797880.webp",
+              "alt": "Text example 2 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "bd67312e1390fb79788038c22712fb1a70bce802c31609c18b510fc0e13963fc"
+            }
+          ]
+        },
+        {
+          "id": "TX-prism_long_text_005-sana",
+          "title": "Text example 3",
+          "caption": "Correct the poster title to “Planet Zoo”.",
+          "model": "SANA-1.5 1.6B",
+          "taskId": "prism_long_text_005",
+          "selectedIndex": 7,
+          "eta": 0.14,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/text/tx-prism-long-text-005-sana-5d078652cb7f7b7b03fe.webp",
+              "alt": "Text example 3 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "5d078652cb7f7b7b03fe718e5629a7cc9723a90e1fada46b25b93af4fbd5e5ea"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/text/tx-prism-long-text-005-sana-e67d2286916419354f4d.webp",
+              "alt": "Text example 3 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "e67d2286916419354f4d3d64235c4fdad77fb1eddf1f1869a405fd174116104b"
+            }
+          ]
+        },
+        {
+          "id": "T09",
+          "title": "Text example 4",
+          "caption": "Clarify “Happy Birthday” and “Mandy Ringe Photography”.",
+          "model": "SD3.5 Medium",
+          "taskId": "prism_style_020",
+          "selectedIndex": 6,
+          "eta": 0.12,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/text/t09-07023c66b55bbba962ce.webp",
+              "alt": "Text example 4 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "07023c66b55bbba962ce94ad52efa31e64ea30c56fecb0803eefd85ff350e9bb"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/text/t09-fba8b529a4c1c97fcf98.webp",
+              "alt": "Text example 4 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "fba8b529a4c1c97fcf98e0f20206d337d02e7a44d74e928bb0760310dbab09bc"
+            }
+          ]
+        },
+        {
+          "id": "T08",
+          "title": "Text example 5",
+          "caption": "Add “Midnight Moon” and the artist’s name, “David Forks”.",
+          "model": "SD3.5 Medium",
+          "taskId": "prism_style_017",
+          "selectedIndex": 5,
+          "eta": 0.1,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/text/t08-8e0324742b4817a27c76.webp",
+              "alt": "Text example 5 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "8e0324742b4817a27c76997bdb69981e38e6addd5438ceedd7cfb517bd8d880d"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/text/t08-7f833db58a07564bbb9a.webp",
+              "alt": "Text example 5 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "7f833db58a07564bbb9a3c5a8c1151e0d50b80017c6ad785ab8676b24109ac07"
+            }
+          ]
+        },
+        {
+          "id": "T17",
+          "title": "Text example 6",
+          "caption": "Correct the nameplate text from “OFFRION” to “OFFERION”.",
+          "model": "SD3.5 Medium",
+          "taskId": "prism_text_rendering_078",
+          "selectedIndex": 1,
+          "eta": 0.02,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/text/t17-24aadb7165861281d059.webp",
+              "alt": "Text example 6 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "24aadb7165861281d0590dbf7c8f96018e8d0cb4259406ea79ed2f74ac2c6ea6"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/text/t17-7b85a69e133cfb3c18f6.webp",
+              "alt": "Text example 6 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "7b85a69e133cfb3c18f6c63e624e3f61a7f8cbf51964d6792dcf54afd144551e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scientific",
+      "label": "Scientific",
+      "cases": [
+        {
+          "id": "S03",
+          "title": "Scientific example 1",
+          "caption": "Clarify the subducting slab and the layers above it.",
+          "model": "FLUX.1-dev",
+          "taskId": "instruction_following_All_Three_041",
+          "selectedIndex": 10,
+          "eta": 0.2,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/scientific/s03-4646e8b1ad91c4cc88e4.webp",
+              "alt": "Scientific example 1 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "4646e8b1ad91c4cc88e451eda732cb58b7d634ddd9a4e26fc63bab5dc3b32914"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/scientific/s03-e69fe9210a1920a686df.webp",
+              "alt": "Scientific example 1 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "e69fe9210a1920a686df641a46e686c085df663a609358b685ece69f12c75d74"
+            }
+          ]
+        },
+        {
+          "id": "S04",
+          "title": "Scientific example 2",
+          "caption": "Show selective ion paths through the porous crystal.",
+          "model": "FLUX.1-dev",
+          "taskId": "intrinsic_reasoning_EntityStructure_ScientificProcess_026",
+          "selectedIndex": 4,
+          "eta": 0.08,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/scientific/s04-295fb3ecb3c002f90076.webp",
+              "alt": "Scientific example 2 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "295fb3ecb3c002f90076f07985d82a6eb438be7e1c520b28002a7795cf6e8f4e"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/scientific/s04-2ba0d4bedf9d15d5b57f.webp",
+              "alt": "Scientific example 2 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "2ba0d4bedf9d15d5b57fa552efef4f90b566dc54a7ebcc143f256684e55a70d9"
+            }
+          ]
+        },
+        {
+          "id": "SCI-080-FLUX",
+          "title": "Scientific example 3",
+          "caption": "Mark the gap between the two levels with a vertical double-headed arrow.",
+          "model": "FLUX.1-dev",
+          "taskId": "intrinsic_reasoning_ScientificLaw_ScientificProcess_080",
+          "selectedIndex": 6,
+          "eta": null,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/scientific/sci-080-flux-c90119c8fdb1356977a5.webp",
+              "alt": "Scientific example 3 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "c90119c8fdb1356977a5b907f4dc0f083671620f44e8c57f971ce8f8bd6e4a43"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/scientific/sci-080-flux-1427a83992117249e39c.webp",
+              "alt": "Scientific example 3 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "1427a83992117249e39cbe2ee51d9603e5f80fd9c428145ec7f8826834ae8e88"
+            }
+          ]
+        },
+        {
+          "id": "SCI-077-FLUX",
+          "title": "Scientific example 4",
+          "caption": "Replace the final dish in the sequencing workflow with a microfluidic chip.",
+          "model": "FLUX.1-dev",
+          "taskId": "instruction_following_EntityStructure_ScientificProcess_077",
+          "selectedIndex": 3,
+          "eta": null,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/scientific/sci-077-flux-744efcb64d1617201abb.webp",
+              "alt": "Scientific example 4 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "744efcb64d1617201abb97ac89a69c0d166b219751ce61a0e04a78efa82d0ced"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/scientific/sci-077-flux-4896d4eceaa48bf7e391.webp",
+              "alt": "Scientific example 4 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "4896d4eceaa48bf7e391a4953c7d7df9866eb509f9476ef0fb425c060344396e"
+            }
+          ]
+        },
+        {
+          "id": "SCI-009-FLUX",
+          "title": "Scientific example 5",
+          "caption": "Point the capillary-flow arrows upward inside the reservoir.",
+          "model": "FLUX.1-dev",
+          "taskId": "intrinsic_reasoning_EntityStructure_ScientificLaw_009",
+          "selectedIndex": 2,
+          "eta": null,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/scientific/sci-009-flux-043722ab8da3a966bb76.webp",
+              "alt": "Scientific example 5 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "043722ab8da3a966bb765635686d86420651e827490c377f7335a84ec9a2cf8d"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/scientific/sci-009-flux-15a430afde17b39b4b7f.webp",
+              "alt": "Scientific example 5 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "15a430afde17b39b4b7fcd26c61787a65606d757a438d258f8b3969b425ffdc0"
+            }
+          ]
+        },
+        {
+          "id": "SCI-005-FLUX",
+          "title": "Scientific example 6",
+          "caption": "Direct both signaling pathways toward the same DNA target.",
+          "model": "FLUX.1-dev",
+          "taskId": "instruction_following_All_Three_005",
+          "selectedIndex": 4,
+          "eta": null,
+          "images": [
+            {
+              "role": "Base",
+              "src": "gallery/selected/scientific/sci-005-flux-1a2dcae14e8dc7e9f736.webp",
+              "alt": "Scientific example 6 - Base",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "1a2dcae14e8dc7e9f736fc3748177b6beaaf6d177aab2dd6e7959dd088b0b7e8"
+            },
+            {
+              "role": "RGDR",
+              "src": "gallery/selected/scientific/sci-005-flux-a3be0cea253c85ad239c.webp",
+              "alt": "Scientific example 6 - RGDR",
+              "width": 1024,
+              "height": 1024,
+              "sourceSha256": "a3be0cea253c85ad239c4bbbb8d926f9a46131c7586cb6a2d9bb520c6e3b1f3b"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

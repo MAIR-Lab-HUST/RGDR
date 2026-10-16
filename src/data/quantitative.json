@@ -1,0 +1,85 @@
+{
+  "aggregation": "Equal-weight arithmetic means of the four model-level values reported in Table 1.",
+  "metrics": [
+    {
+      "id": "gain",
+      "value": "+4.18",
+      "unit": "pts",
+      "label": "Mean score gain",
+      "description": "Increase over the reference on the 0–100 checklist scale."
+    },
+    {
+      "id": "improved",
+      "value": "29.91",
+      "unit": "%",
+      "label": "Improved outputs",
+      "description": "Outputs with a higher checklist score than their reference."
+    },
+    {
+      "id": "repair",
+      "value": "17.19",
+      "unit": "%",
+      "label": "Error repair",
+      "description": "Mean share of initially failed checklist items corrected."
+    },
+    {
+      "id": "preserve",
+      "value": "96.04",
+      "unit": "%",
+      "label": "Requirement preservation",
+      "description": "Mean share of initially passed checklist items retained."
+    }
+  ],
+  "source": {
+    "table": "Table 1",
+    "tableFile": "figures/main_results.tex",
+    "sha256": "fe980ca6aa195ff3a67fba3c3b90a4fe47ecf27b566163d219cb6e1d79916d6b",
+    "metricDefinitions": "Appendix: Evaluation Metrics"
+  },
+  "modelResults": [
+    {
+      "model": "Stable Diffusion 3.5 Medium",
+      "sourceLine": 26,
+      "budget": "10",
+      "final": "60.64",
+      "gain": "3.74",
+      "relativeGain": "6.58",
+      "improved": "28.0",
+      "repair": "12.96",
+      "preserve": "96.44"
+    },
+    {
+      "model": "SANA-1.5 1.6B",
+      "sourceLine": 33,
+      "budget": "10",
+      "final": "50.92",
+      "gain": "4.37",
+      "relativeGain": "9.38",
+      "improved": "31.5",
+      "repair": "13.07",
+      "preserve": "94.46"
+    },
+    {
+      "model": "FLUX.1-dev",
+      "sourceLine": 40,
+      "budget": "10",
+      "final": "74.67",
+      "gain": "4.36",
+      "relativeGain": "6.21",
+      "improved": "26.5",
+      "repair": "19.15",
+      "preserve": "96.78"
+    },
+    {
+      "model": "Qwen-Image-Edit-2511",
+      "sourceLine": 47,
+      "budget": "5",
+      "final": "76.99",
+      "gain": "4.23",
+      "relativeGain": "5.81",
+      "improved": "33.64",
+      "repair": "23.58",
+      "preserve": "96.48"
+    }
+  ]
+}

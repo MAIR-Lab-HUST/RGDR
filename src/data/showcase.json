@@ -1,0 +1,164 @@
+{
+  "duration": 12.4,
+  "transitionStart": 0.1,
+  "transitionDuration": 12,
+  "cases": [
+    {
+      "id": "human",
+      "category": "Human",
+      "title": "Show the bride riding a bicycle through the golden field.",
+      "goal": "Show the bride riding a bicycle through the golden field.",
+      "poster": "showcase/human/bride_frame_000.webp",
+      "video": "showcase/human/bride_transition_smooth.mp4",
+      "anchors": [
+        {
+          "eta": 0.0,
+          "time": 0.1,
+          "src": "showcase/human/bride_frame_000.webp"
+        },
+        {
+          "eta": 0.02,
+          "time": 2.309022,
+          "src": "showcase/human/bride_frame_001.webp"
+        },
+        {
+          "eta": 0.04,
+          "time": 4.428347,
+          "src": "showcase/human/bride_frame_002.webp"
+        },
+        {
+          "eta": 0.06,
+          "time": 7.040152,
+          "src": "showcase/human/bride_frame_003.webp"
+        },
+        {
+          "eta": 0.08,
+          "time": 9.162113,
+          "src": "showcase/human/bride_frame_004.webp"
+        },
+        {
+          "eta": 0.1,
+          "time": 12.1,
+          "src": "showcase/human/bride_frame_005.webp"
+        }
+      ]
+    },
+    {
+      "id": "open",
+      "category": "Open",
+      "title": "Conceal the bridge deck and lower towers beneath dense fog.",
+      "goal": "Conceal the bridge deck and lower towers beneath dense fog.",
+      "poster": "showcase/open/frame_000.webp",
+      "video": "showcase/open/transition_smooth.mp4",
+      "anchors": [
+        {
+          "eta": 0.0,
+          "time": 0.1,
+          "src": "showcase/open/frame_000.webp"
+        },
+        {
+          "eta": 0.02,
+          "time": 1.274036,
+          "src": "showcase/open/frame_001.webp"
+        },
+        {
+          "eta": 0.04,
+          "time": 2.616691,
+          "src": "showcase/open/frame_002.webp"
+        },
+        {
+          "eta": 0.06,
+          "time": 3.776106,
+          "src": "showcase/open/frame_003.webp"
+        },
+        {
+          "eta": 0.08,
+          "time": 4.956712,
+          "src": "showcase/open/frame_004.webp"
+        },
+        {
+          "eta": 0.1,
+          "time": 6.260235,
+          "src": "showcase/open/frame_005.webp"
+        },
+        {
+          "eta": 0.12,
+          "time": 7.833943,
+          "src": "showcase/open/frame_006.webp"
+        },
+        {
+          "eta": 0.14,
+          "time": 9.934714,
+          "src": "showcase/open/frame_007.webp"
+        },
+        {
+          "eta": 0.16,
+          "time": 12.1,
+          "src": "showcase/open/frame_008.webp"
+        }
+      ]
+    },
+    {
+      "id": "text",
+      "category": "Text",
+      "title": "Render the subtitle “Lament of Innocence” clearly and with correct spelling.",
+      "goal": "Render the subtitle “Lament of Innocence” clearly and with correct spelling.",
+      "poster": "showcase/text/frame_000.webp",
+      "video": "showcase/text/transition_smooth.mp4",
+      "anchors": [
+        {
+          "eta": 0.0,
+          "time": 0.1,
+          "src": "showcase/text/frame_000.webp"
+        },
+        {
+          "eta": 0.02,
+          "time": 3.171775,
+          "src": "showcase/text/frame_001.webp"
+        },
+        {
+          "eta": 0.04,
+          "time": 6.081849,
+          "src": "showcase/text/frame_002.webp"
+        },
+        {
+          "eta": 0.06,
+          "time": 9.186558,
+          "src": "showcase/text/frame_003.webp"
+        },
+        {
+          "eta": 0.08,
+          "time": 12.1,
+          "src": "showcase/text/frame_004.webp"
+        }
+      ]
+    },
+    {
+      "id": "scientific",
+      "category": "Scientific",
+      "title": "Turn the horizontal red and blue excitation arrows upward.",
+      "goal": "Turn the horizontal red and blue excitation arrows upward.",
+      "poster": "showcase/scientific/excitation_frame_000.webp",
+      "video": "showcase/scientific/excitation_transition_smooth.mp4",
+      "anchors": [
+        {
+          "eta": 0.0,
+          "time": 0.1,
+          "src": "showcase/scientific/excitation_frame_000.webp"
+        },
+        {
+          "eta": 0.02,
+          "time": 5.611778,
+          "src": "showcase/scientific/excitation_frame_001.webp"
+        },
+        {
+          "eta": 0.04,
+          "time": 12.1,
+          "src": "showcase/scientific/excitation_frame_002.webp"
+        }
+      ]
+    }
+  ],
+  "timing": "visual-change-balanced",
+  "playbackRate": 2
+}
