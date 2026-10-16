@@ -17,8 +17,7 @@ const duration = showcase.duration
 const playbackRate = showcase.playbackRate || 1
 const cases = showcase.cases
 const frozenCount = 4
-const gap = 4
-const metrics = ref(cases.map(() => ({ tile: 220, stride: 224, travel: 896 })))
+const metrics = ref(cases.map(() => ({ tile: 220, stride: 220, travel: 880 })))
 const progress = computed(() => Math.min(1, currentTime.value / duration))
 let frame = 0
 let observer
@@ -30,8 +29,8 @@ let operation = 0
 
 function measureTracks() {
   metrics.value = viewports.map(viewport => {
-    const tile = Math.max(1, (viewport.clientWidth - gap * frozenCount) / (frozenCount + 1))
-    return { tile, stride: tile + gap, travel: (tile + gap) * frozenCount }
+    const tile = Math.max(1, viewport.clientWidth / (frozenCount + 1))
+    return { tile, stride: tile, travel: tile * frozenCount }
   })
 }
 
